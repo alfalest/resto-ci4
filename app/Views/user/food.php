@@ -2,28 +2,12 @@
 <?= $this->section('page-content') ?>
 <?= $this->include('user/component/navbar') ?>
 
-<style>
-    /* body::before {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-        background-image: url('<?= base_url() ?>/assets/img/bg.jpg');
-        background-size: cover;
-        background-position: center;
-        filter: brightness(75%) blur(5px);
-    } */
-</style>
-
 <!-- Jumbotron -->
-<div class="jumbotron text-center">
+<!-- <div class="jumbotron text-center">
     <h1 class="display-4">Ssayoresto by Ssayomart</h1>
     <p class="lead">Coming Soon!</p>
     <a class="btn btn-danger btn-lg" href="#" role="button">Order Now</a>
-</div>
+</div> -->
 
 <!-- Featured Items -->
 <div class="container">
@@ -37,72 +21,48 @@
         <div class="carousel-inner">
             <!-- Slide 1 -->
             <div class="carousel-item active">
-                <div class="row text-center row-cols-2 mt-4">
+                <div class="row text-center row-cols-1 mt-4">
                     <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-1.png" alt="Kategori" class="card-img-top">
-                                </div>
+                        <img src="<?= base_url() ?>assets/img/menu/menu-1.png" alt="Kategori" class="img-fluild">
+                        <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3 position-relative">
+                            <div class="menu-details position-absolute bottom-0 start-0 end-0 bg-white p-3">
+                                <div class="menu-title">Korean BBQ</div>
+                                <div class="menu-price">$29.99</div>
+                                <button class="btn btn-warning">Add to Cart</button>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-2.png" alt="Kategori" class="card-img-top">
-                                </div>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Slide 2 -->
             <div class="carousel-item">
-                <div class="row text-center row-cols-2 mt-4">
+                <div class="row text-center row-cols-1 mt-4">
                     <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-3.png" alt="Kategori" class="card-img-top">
-                                </div>
+                        <img src="<?= base_url() ?>assets/img/menu/menu-2.png" alt="Kategori" class="img-fluild">
+                        <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3 position-relative">
+                            <div class="menu-details position-absolute bottom-0 start-0 end-0 bg-white p-3">
+                                <div class="menu-title">Ramyun</div>
+                                <div class="menu-price">$29.99</div>
+                                <button class="btn btn-warning">Add to Cart</button>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-1.png" alt="Kategori" class="card-img-top">
-                                </div>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Slide 3 -->
             <div class="carousel-item">
-                <div class="row text-center row-cols-2 mt-4">
+                <div class="row text-center row-cols-1 mt-4">
                     <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-2.png" alt="Kategori" class="card-img-top">
-                                </div>
+                        <img src="<?= base_url() ?>assets/img/menu/menu-3.png" alt="Kategori" class="img-fluild">
+                        <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3 position-relative">
+                            <div class="menu-details position-absolute bottom-0 start-0 end-0 bg-white p-3">
+                                <div class="menu-title">Tokpokki</div>
+                                <div class="menu-price">$29.99</div>
+                                <button class="btn btn-warning">Add to Cart</button>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-3.png" alt="Kategori" class="card-img-top">
-                                </div>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -129,72 +89,48 @@
         <div class="carousel-inner">
             <!-- Slide 1 -->
             <div class="carousel-item active">
-                <div class="row text-center row-cols-2 mt-4">
+                <div class="row text-center row-cols-1 mt-4">
                     <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-1.png" alt="Kategori" class="card-img-top">
-                                </div>
+                        <img src="<?= base_url() ?>assets/img/menu/menu-2.png" alt="Kategori" class="img-fluild">
+                        <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3 position-relative">
+                            <div class="menu-details position-absolute bottom-0 start-0 end-0 bg-white p-3">
+                                <div class="menu-title">Sushi</div>
+                                <div class="menu-price">$29.99</div>
+                                <button class="btn btn-warning">Add to Cart</button>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-2.png" alt="Kategori" class="card-img-top">
-                                </div>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Slide 2 -->
             <div class="carousel-item">
-                <div class="row text-center row-cols-2 mt-4">
+                <div class="row text-center row-cols-1 mt-4">
                     <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-3.png" alt="Kategori" class="card-img-top">
-                                </div>
+                        <img src="<?= base_url() ?>assets/img/menu/menu-1.png" alt="Kategori" class="img-fluild">
+                        <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3 position-relative">
+                            <div class="menu-details position-absolute bottom-0 start-0 end-0 bg-white p-3">
+                                <div class="menu-title">Ramen</div>
+                                <div class="menu-price">$29.99</div>
+                                <button class="btn btn-warning">Add to Cart</button>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-1.png" alt="Kategori" class="card-img-top">
-                                </div>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Slide 3 -->
             <div class="carousel-item">
-                <div class="row text-center row-cols-2 mt-4">
+                <div class="row text-center row-cols-1 mt-4">
                     <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-2.png" alt="Kategori" class="card-img-top">
-                                </div>
+                        <img src="<?= base_url() ?>assets/img/menu/menu-3.png" alt="Kategori" class="img-fluild">
+                        <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3 position-relative">
+                            <div class="menu-details position-absolute bottom-0 start-0 end-0 bg-white p-3">
+                                <div class="menu-title">Dango</div>
+                                <div class="menu-price">$29.99</div>
+                                <button class="btn btn-warning">Add to Cart</button>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-3.png" alt="Kategori" class="card-img-top">
-                                </div>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -221,72 +157,48 @@
         <div class="carousel-inner">
             <!-- Slide 1 -->
             <div class="carousel-item active">
-                <div class="row text-center row-cols-2 mt-4">
+                <div class="row text-center row-cols-1 mt-4">
                     <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-1.png" alt="Kategori" class="card-img-top">
-                                </div>
+                        <img src="<?= base_url() ?>assets/img/menu/menu-3.png" alt="Kategori" class="img-fluild">
+                        <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3 position-relative">
+                            <div class="menu-details position-absolute bottom-0 start-0 end-0 bg-white p-3">
+                                <div class="menu-title">Sate Biawak</div>
+                                <div class="menu-price">$29.99</div>
+                                <button class="btn btn-warning">Add to Cart</button>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-2.png" alt="Kategori" class="card-img-top">
-                                </div>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Slide 2 -->
             <div class="carousel-item">
-                <div class="row text-center row-cols-2 mt-4">
+                <div class="row text-center row-cols-1 mt-4">
                     <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-3.png" alt="Kategori" class="card-img-top">
-                                </div>
+                        <img src="<?= base_url() ?>assets/img/menu/menu-2.png" alt="Kategori" class="img-fluild">
+                        <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3 position-relative">
+                            <div class="menu-details position-absolute bottom-0 start-0 end-0 bg-white p-3">
+                                <div class="menu-title">Sup Kobra</div>
+                                <div class="menu-price">$29.99</div>
+                                <button class="btn btn-warning">Add to Cart</button>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-1.png" alt="Kategori" class="card-img-top">
-                                </div>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Slide 3 -->
             <div class="carousel-item">
-                <div class="row text-center row-cols-2 mt-4">
+                <div class="row text-center row-cols-1 mt-4">
                     <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-2.png" alt="Kategori" class="card-img-top">
-                                </div>
+                        <img src="<?= base_url() ?>assets/img/menu/menu-1.png" alt="Kategori" class="img-fluild">
+                        <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3 position-relative">
+                            <div class="menu-details position-absolute bottom-0 start-0 end-0 bg-white p-3">
+                                <div class="menu-title">Kelalawar Bakar</div>
+                                <div class="menu-price">$29.99</div>
+                                <button class="btn btn-warning">Add to Cart</button>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="<?= base_url() ?>">
-                            <div class="text-bg-light mb-3 bg-white border-0 shadow-sm rounded-3">
-                                <div class="px-0 py-0 mx-0 my-0">
-                                    <img src="<?= base_url() ?>assets/img/menu/menu-3.png" alt="Kategori" class="card-img-top">
-                                </div>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>

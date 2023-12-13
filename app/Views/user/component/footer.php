@@ -31,7 +31,7 @@ $isMobile = (strpos($userAgent, 'Mobile') !== false || strpos($userAgent, 'Table
                 <li class="nav-item text-center">
                     <a href="<?= base_url(); ?>other" class="nav-link link-light">
                         <i class="bi bi-grid fw-bold fs-2 text-danger"></i>
-                        <span class="d-block text-muted small">Other</span>
+                        <span class="d-block text-muted small">All Menu</span>
                     </a>
                 </li>
             </ul>
