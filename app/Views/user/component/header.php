@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="csrf-token" content="<?= csrf_hash() ?>">
 <title><?= $title; ?></title>
-<link rel="shortcut icon" type="image/png" href="<?= base_url() ?>/assets/img/logo.png" />
+<link rel="shortcut icon" type="image/png" href="<?= base_url() ?>/assets/img/resto.jpg" />
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="<?= base_url() ?>assets/bootstrap/css/bootstrap.min.css">
